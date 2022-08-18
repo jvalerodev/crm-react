@@ -44,7 +44,7 @@ const Form = ({ client, loading }) => {
         });
 
         actions.resetForm();
-        navigate('/customers');
+        navigate('/');
       } catch (error) {
         console.log(error);
       }

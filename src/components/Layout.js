@@ -10,12 +10,12 @@ const Layout = () => {
         <h2 className="text-white text-4xl text-center font-black">CRM - Customers</h2>
         <nav className="mt-10 px-5">
           <Link
-            to="/customers"
+            to="/"
             className={`text-white text-xl block mt-2 transition hover:bg-blue-300 px-4 py-2 rounded-md ${location.pathname === '/' && 'bg-blue-300'}`}
           >Customers
           </Link>
           <Link
-            to="/customers/create"
+            to="/create"
             className={`text-white text-xl block mt-2 transition hover:bg-blue-300 px-4 py-2 rounded-md ${location.pathname === '/new-client' && 'bg-blue-300'}`}
           >Create Client
           </Link>

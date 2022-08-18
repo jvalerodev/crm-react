@@ -10,7 +10,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/customers" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Index />} />
           <Route path="create" element={<CreateClient />} />
           <Route path="edit/:id" element={<EditClient />} />
