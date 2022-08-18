@@ -1,3 +1,28 @@
 {
-  "customers": []
+  "customers": [
+    {
+      "name": "Nayda Sherman",
+      "company": "Airbnb",
+      "email": "nisl@hotmail.edu",
+      "phone": "(745) 881-6096",
+      "notes": "New client",
+      "id": 1
+    },
+    {
+      "name": "Laura Webster",
+      "company": "Twitter",
+      "phone": "1-784-536-8461",
+      "email": "nulla.at@protonmail.couk",
+      "notes": "",
+      "id": 2
+    },
+    {
+      "name": "Clayton Valenzuela",
+      "company": "Google",
+      "phone": "1-521-953-4474",
+      "email": "turpis@yahoo.couk",
+      "notes": "",
+      "id": 3
+    }
+  ]
 }
